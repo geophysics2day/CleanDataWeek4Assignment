@@ -1,4 +1,4 @@
-setwd("C:/Users/User1/Documents/R/Rtestproj/UCIHARDataset")  ##Get to the correct folder
+setwd("~/R/Rtestproj/UCIHARDataset")  ##Get to the correct folder
 
 ##----------------------------------------------------------------
 ##Read in the test data sets  ## Number of rows: 2947
@@ -21,7 +21,7 @@ alldata <- cbind(subj,activ,data)
 colnams <- read.table("colnames.txt")
 colnames(alldata) <- colnams[,2]
 library(dplyr)
-alldata2 <- alldata[order(subject,activity),] ##Arranges data first by subject and then by activity
+alldata2 <- alldata[order(subj,activ),] ##Arranges data first by subject and then by activity
 ## alldata2 contains all measurements arranged first by subject and then by activity
 
 ##----------------------------------------------------------------
