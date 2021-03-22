@@ -1,0 +1,49 @@
+Column Descriptions:
+
+Subject
+	Values range from 1 to 30 and correspond to volunteer number from "Human Activity Recognition Using Smart Phones Dataset
+
+Activity
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+
+ActivityDesc
+	Numbers have been replaced with the descriptive names contained above in "Activity"
+
+Column Names:
+	colnames.txt  contains all measurement descriptions that correspond to: 
+		Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
+		Triaxial Angular velocity from the gyroscope
+		There are a total of 561-features with time and frequency domain variables
+		BodyAcc = body acceleration
+		GravityAcc = acceleration due to gravity
+		Jerk: rate at which acceleration changes with respect to time
+		Gyro: from the gyroscope
+		Mag: Magnitude
+		f: fraction?
+		angle: angle between two directional vectors
+		X,Y,Z correspond to the three directions of motion 
+		mean() = column contains averages
+		std()  = column contains standard deviations
+		mad() = column contains	Median Absolute Deviation
+		max() = column contains maximum values
+		min() = column contains minimum values
+		sma() = column contains moving averages
+		energy() = column contains energy values
+		iqr() = column contains interquartile range
+		entropy() = column contains entropy values
+		arCoeff() = column contains autoregression coefficients
+		correlation() = column contains cross correlations between the measurements in the indicated directions 
+
+	
+	TidyDataNames.txt: contains the Subject numbers, Activity descriptions, and subset of measurements that correspond to means and standard deviations (88 columns total)
+
+
+		
+
+
+
